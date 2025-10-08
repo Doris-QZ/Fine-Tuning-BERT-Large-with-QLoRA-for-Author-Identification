@@ -38,8 +38,8 @@ Unlike [my previous experiments](https://github.com/Doris-QZ/spooky_author_ident
 This project demonstrates that:
 
 * Even with fewer than **20k samples** and only **one A100 GPU**, **BERT Large** can be effectively fine-tuned using **QLoRA**.
-* **Ensemble learning** enhances both stability and performance across validation and test sets.
 * **Parameter-efficient fine-tuning** bridges the gap between resource constraints and large model capabilities — making **LLM adaptation** more accessible to smaller teams and individual practitioners.
+* **Ensemble learning** enhances both stability and performance across validation and test sets.
 
 ### Reference 📚
 * Hu, E. J., Shen, Y., Wallis, P., Allen-Zhu, Z., Li, Y., Wang, S., ... & Chen, W. (2022). [Lora: Low-rank adaptation of large language models](https://arxiv.org/abs/2106.09685). ICLR, 1(2), 3.
