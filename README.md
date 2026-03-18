@@ -6,7 +6,7 @@ Unlike [my previous experiments](https://github.com/Doris-QZ/spooky_author_ident
 
 ***
 
-### Project Goals 🎯
+### 🎯 Project Goals 
 
 * Explore **QLoRA** as a memory-efficient fine-tuning approach for large transformer models.
 * Evaluate the effect of **different LoRA configurations**:
@@ -15,11 +15,11 @@ Unlike [my previous experiments](https://github.com/Doris-QZ/spooky_author_ident
 * Compare model performance using validation metrics (loss and accuracy).
 * Combine the best-performing fine-tuned models through **ensemble learning** to improve test predictions.
 
-### Repository Structure 🧩
+### 📂 Repository Structure 
 * The first two notebooks--`1_QLoRA_r8a4_AllLin_Author_Identification.ipynb` and `2_QLoRA_r16a8_QKV_Author_Identification.ipynb`--fine-tune the BERT Large model using the same procedure but with different hyperparameter settings.
 * The third notebook, `3_Ensemble_Results.ipynb`, ensembles the predictions from the best two models (shown in the first two notebooks) to produce the final results.
 
-### Key Results ⚙️
+### 🔎 Key Results 
 
 * **Best Single Model**: r=8, α=4, target_modules=[All Linear]
   * Validation Loss: **0.36**
@@ -33,7 +33,7 @@ Unlike [my previous experiments](https://github.com/Doris-QZ/spooky_author_ident
     
   * Test Loss: **0.33**
 
-### Summary 🚀
+### 🚀 Summary 
 
 This project demonstrates that:
 
@@ -41,7 +41,7 @@ This project demonstrates that:
 * **Parameter-efficient fine-tuning** bridges the gap between resource constraints and large model capabilities — making **LLM adaptation** more accessible to smaller teams and individual practitioners.
 * **Ensemble learning** enhances both stability and performance across validation and test sets.
 
-### Reference 📚
+### 📚 Reference 
 * Hu, E. J., Shen, Y., Wallis, P., Allen-Zhu, Z., Li, Y., Wang, S., ... & Chen, W. (2022). [Lora: Low-rank adaptation of large language models](https://arxiv.org/abs/2106.09685). ICLR, 1(2), 3.
 * Dettmers, T., Pagnoni, A., Holtzman, A., & Zettlemoyer, L. (2023). [Qlora: Efficient finetuning of quantized llms](https://arxiv.org/abs/2305.14314). Advances in neural information processing systems, 36, 10088-10115.
 * Li, Y., Yu, Y., Liang, C., He, P., Karampatziakis, N., Chen, W., & Zhao, T. (2023). [Loftq: Lora-fine-tuning-aware quantization for large language models](https://arxiv.org/abs/2310.08659). arXiv preprint arXiv:2310.08659.
